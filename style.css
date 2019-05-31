@@ -1,0 +1,218 @@
+body{
+    background-color:#F0F0F0;
+    border:solid;
+    border-color:#B22222;
+}
+
+.donate{
+      width: 70px;
+        height: 30px;
+        font-size:18px;
+}
+
+.header {
+    text-align: center;
+    padding-top: 44px;
+    display:flex;
+    color:#B22222;
+}
+
+.postm{
+    font-size:20px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+     -webkit-transform: rotate(960deg);
+     -moz-transform: rotate(960deg);
+     -o-transform: rotate(360deg);
+     transform: rotate(-18deg);
+    font-family: 'Monoton', cursive;
+    text-decoration: none;
+    color:white;
+}
+
+.lol:link {
+    text-decoration: none;
+    color:white;
+    padding-top:00px;
+    font-size:40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+     width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+}
+
+@-webkit-keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+.lol:visited{
+   text-decoration: none; color:white;
+}
+
+.theader {
+    text-align: center;
+    padding: 20px;
+    font-size:30px;
+    color:#B22222;
+    background-color:#F8F8F8;
+     text-shadow: 6px 6px 9px #000000;
+}
+
+.inner{
+    font-size:20px;
+}
+
+.pops{
+    font-family: 'Monoton', cursive;
+    text-decoration: none;
+    color:white;
+    padding-left:20px;
+    font-size:40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.pops:visited{
+   text-decoration: none; color:white;
+}
+
+.pop{
+    font-family: 'Monoton', cursive;
+    text-decoration: none;
+    color:white;
+    padding-left:600px;
+    font-size:40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.pop:visited{
+   text-decoration: none; color:white;
+}
+
+.store{
+    text-decoration: none;
+    padding-left:90px;
+    font-size:40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+* {box-sizing:border-box;}
+
+.slideshow-container {
+  max-width:1200px;
+  height:883px;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 1px;
+  color: white;
+  font-weight: bold;
+  font-size: 90px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  color:#b30000;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+
+@keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+.column {
+    float: left;
+    width: 33.33%;
+    background-color:#F0F0F0;
+    height:190px;
+    border:solid;
+    border-color:#F8F8F8;
+    font-size:25px;
+    color:#0318a0;
+font-family: 'Lobster', cursive;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+img{
+    width: 20%;
+  height: 20%;
+      padding-left:90px;
+         padding-right:90px;
+}
+p{
+    font-family: 'Monoton', cursive;
+    font-size:20px;
+}
